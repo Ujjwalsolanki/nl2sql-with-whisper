@@ -151,6 +151,12 @@ nl2sql_project/
     streamlit run app.py
     ```
 
+    ```bash
+    streamlit run app2.py
+    ```
+
+    This will open a separate Streamlit application in your browser, demonstrating the chunked, asynchronous audio transcription.
+
 2.  **Interact with the Chatbot:**
     Open your web browser and navigate to the local URL provided by Streamlit (usually `http://localhost:8501`). You can type your natural language questions into the chat input or use the audio recording widget to speak your queries.
 
