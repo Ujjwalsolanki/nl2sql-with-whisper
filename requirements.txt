@@ -1,0 +1,24 @@
+# Core Langchain libraries
+langchain-community
+langchain-core
+langchain-openai # Still needed for the LLM (e.g., GPT-3.5 Turbo) for NL2SQL
+
+# Database connector for MySQL
+pymysql
+
+# For parsing environment variables
+python-dotenv
+
+# For the frontend
+streamlit
+
+# For SQLAlchemy (used by database_utils.py)
+SQLAlchemy
+
+# NEW: For local Whisper model inference (using faster-whisper directly)
+faster-whisper # Optimized Whisper implementation
+
+# For audio file handling
+soundfile # For reading/writing audio files
+numpy # Often used with soundfile for audio data manipulation
+scipy # Required for resample_poly in soundfile processing
