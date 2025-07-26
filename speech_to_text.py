@@ -41,8 +41,8 @@ class SpeechToTextManager:
         Returns:
             WhisperModel: The loaded Whisper model instance.
         """
-        # MODEL_TYPE = "tiny"
-        MODEL_TYPE = "large-v2"
+        MODEL_TYPE = "tiny"
+        # MODEL_TYPE = "large-v2"
         RUN_TYPE = "cpu"  # "cpu" or "gpu"
 
         # For CPU usage (https://github.com/SYSTRAN/faster-whisper/issues/100#issuecomment-1492141352)
